@@ -1,0 +1,18 @@
+.authentic {
+  ul {
+    display: flex;
+    column-gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 20px;
+
+    li {
+      list-style: none;
+      .login {
+        color: #1b2c51 !important;
+        font-weight: 600;
+      }
+    }
+  }
+}

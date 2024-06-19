@@ -1,0 +1,45 @@
+.admin {
+  min-height: 98vh;
+  .admin-title {
+    a {
+      color: #000;
+    }
+  }
+  .left-admin-menu {
+    background-color: cornflowerblue;
+    min-height: 98vh;
+    padding: 15px;
+  }
+  .admin-title {
+    text-align: center;
+  }
+  .admin-menus {
+    ul {
+      border: 1px solid #93c5fd;
+      border-bottom: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      li {
+        border-bottom: 1px solid #93c5fd;
+        padding-left: 10px;
+        color: #fff;
+        list-style: none;
+
+        #dropdown-basic {
+          background-color: transparent !important;
+          border: none;
+          outline: none !important;
+          box-shadow: none;
+          text-align: start;
+        }
+        .dropdown-menu.show {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
